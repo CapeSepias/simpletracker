@@ -1,4 +1,4 @@
-package io.funnel.simpletracker.controller;
+package se.ofranzen.funnel.simpletracker.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

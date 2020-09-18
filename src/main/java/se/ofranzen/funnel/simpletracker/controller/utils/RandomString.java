@@ -1,4 +1,4 @@
-package io.funnel.simpletracker.controller.utils;
+package se.ofranzen.funnel.simpletracker.controller.utils;
 
 import java.security.SecureRandom;
 

@@ -1,4 +1,4 @@
-package io.funnel.simpletracker.controller;
+package se.ofranzen.funnel.simpletracker.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

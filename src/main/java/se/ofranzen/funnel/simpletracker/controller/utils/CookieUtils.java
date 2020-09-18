@@ -1,6 +1,6 @@
-package io.funnel.simpletracker.controller.utils;
+package se.ofranzen.funnel.simpletracker.controller.utils;
 
-import io.funnel.simpletracker.controller.TrackerController;
+import se.ofranzen.funnel.simpletracker.controller.TrackerController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

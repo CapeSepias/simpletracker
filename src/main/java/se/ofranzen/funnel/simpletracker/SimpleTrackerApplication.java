@@ -1,4 +1,4 @@
-package io.funnel.simpletracker;
+package se.ofranzen.funnel.simpletracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

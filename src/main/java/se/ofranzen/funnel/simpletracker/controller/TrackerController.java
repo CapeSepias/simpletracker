@@ -1,9 +1,10 @@
-package io.funnel.simpletracker.controller;
+package se.ofranzen.funnel.simpletracker.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import se.ofranzen.funnel.simpletracker.controller.utils.CookieUtils;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -11,8 +12,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import static io.funnel.simpletracker.controller.utils.CookieUtils.setNewUserId;
 
 @Controller
 public class TrackerController {
@@ -50,7 +49,7 @@ public class TrackerController {
         }
 
         if(userId.equalsIgnoreCase("notSet")){
-            userId = setNewUserId(response);
+            userId = CookieUtils.setNewUserId(response);
             log.info("New user. Setting userId to: " + userId);
         } else {
             log.info("Returning user with userId: " + userId);
